@@ -1,7 +1,7 @@
 MonReader
 ==============================
 
-Part of project to build mobile application scan and detect pages being flipped or not
+Part of project to build mobile application to scan and detect pages being flipped or not
 
 Project Organization
 ------------
