@@ -1,7 +1,32 @@
 MonReader
 ==============================
 
-Part of project to build mobile application to scan and detect pages being flipped or not
+Part of project to build mobile application to scan and detect pages being flipped or not. Please consult notebook (MonReader.ipynb) for detailed description of project and Analysis.
+## Installation Instructions
+
+go to anaconda prompt and type in following commands:
+1- to install jupyter book so it can use virtual environment
+```
+conda install -c conda-forge notebook
+conda install -c conda-forge nb_conda_kernels
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge nb_conda_kernels
+```
+
+2- to create virtual environment and install requirements
+```
+conda create --name mon_reader pip ipykernel
+source activate mon_reader
+git clone --recursive https://github.com/Usama-zia/MonReader.git
+cd mon_reader
+pip install -r requirements.txt
+```
+3- now use following commands to first deactivate enviornment and open jupyter notebook
+```
+conda deactivate
+jupyter notebook
+```
+to run jupyter notebook make sure you are in conda base enviornment.
 
 Project Organization
 ------------
